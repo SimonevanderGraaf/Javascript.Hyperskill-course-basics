@@ -1,9 +1,9 @@
-/* <b>Topic 1: Introduction to JavaScript</b>
+<b>/* Topic 1: Introduction to JavaScript</b>
 
 Part 1: change the dots by filling in the missing code
 
 Example:
-... name = 'User';
+    ... name = 'User';
 let age = 20;
 let welcomeMessage = 'Hello, ' + name + '. You are ' + age + ' years old.';
 ... (welcomeMessage);
@@ -32,12 +32,10 @@ shoutToTheWorld...;
 
 Result: */
 function (shoutToTheWorld) {
-console.log ("Greetings, realm of JavaScript!");
+    console.log ("Greetings, realm of JavaScript!");
 }
 shoutToTheWorld();
 
 /* Part 2: Display the I like JavaScript! phrase using console.log based on the code from the theory.
 Answer: */
 console.log ("I like JavaScript!");
-
-/* <b>Topic 2: Writing first program</b>
