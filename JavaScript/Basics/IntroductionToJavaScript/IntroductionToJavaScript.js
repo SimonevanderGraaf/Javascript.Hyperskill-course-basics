@@ -1,5 +1,8 @@
-<b>/* Topic 1: Introduction to JavaScript</b>
+/**
+ Topic 1: Introduction to JavaScript
+*/
 
+/*
 Part 1: change the dots by filling in the missing code
 
 Example:
@@ -30,8 +33,9 @@ function (...) {
 }
 shoutToTheWorld...;
 
-Result: */
-function (shoutToTheWorld) {
+Result:
+*/
+function shoutToTheWorld() {
     console.log ("Greetings, realm of JavaScript!");
 }
 shoutToTheWorld();
