@@ -1,5 +1,5 @@
 /**
- Topic 1: Introduction to JavaScript
+ Topic: Introduction to JavaScript
 */
 
 /*
@@ -11,23 +11,27 @@ let age = 20;
 let welcomeMessage = 'Hello, ' + name + '. You are ' + age + ' years old.';
 ... (welcomeMessage);
 
-Result:*/
+Result:
+*/
 let name = 'User';
 let age = 20;
 let welcomeMessage = 'Hello, ' + name + '. You are ' + age + ' years old.';
 console.log (welcomeMessage);
 
-/* Example:
+/*
+Example:
 ... myName = "John Doe";
 var introduction = "Hello, My name is ";
 ... (introduction + myName);
 
-Result: */
+Result:
+*/
 var myName = "John Doe";
 var introduction = "Hello, My name is ";
 console.log (introduction + myName);
 
-/* Example:
+/*
+Example:
 function (...) {
 ... ("Greetings, realm of JavaScript!");
 }
@@ -40,6 +44,8 @@ function shoutToTheWorld() {
 }
 shoutToTheWorld();
 
-/* Part 2: Display the I like JavaScript! phrase using console.log based on the code from the theory.
-Answer: */
+/*
+Part 2: Display the I like JavaScript! phrase using console.log based on the code from the theory.
+Answer:
+*/
 console.log ("I like JavaScript!");
