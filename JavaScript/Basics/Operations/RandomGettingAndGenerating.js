@@ -99,6 +99,54 @@ console.log(getRandomInteger(10)); // Output: Random integer between 0 and 9
 Math.random() does not round numbers. It only generates random values.
  */
 
+/*
+Question 5:
+Change the getRandom function so that it returns a random integer from 0 (inclusive) to 5 (exclusive).
+Tip: Focus only on the modification of the function such that it returns a random value as per the above description.
+This returned value is then processed internally and produces the output as given in the sample output.
 
+function getRandom() {
+// Write your code here
+}
+ */
 
+// Answer:
+function getRandom() {
+    return Math.floor(Math.random() * 5);
+}
+
+/*
+Question 6:
+Create a getRandom function so that it returns a random integer from 1 to 3 (both inclusive).
+ */
+
+// Answer:
+function getRandom() {
+    return Math.floor(Math.random() * 3) + 1;
+}
+/*
+Explanation:
+Math.random() generates a random floating-point number in the range [0, 1).
+Multiplying by 3 scales this number to [0, 3).
+Math.floor() ensures the result is an integer from 0 to 2.
+Adding 1 shifts the range from [0, 2] to [1, 3].
+Now, calling getRandom() will return either 1, 2, or 3.
+ */
+
+/*
+Question 7:
+Change the getRomanNumber function so that it returns a random item from the romanNumbers array, starting from the
+second element i.e. index 1.
+const romanNumbers = ["I", "II", "III", "IV", "V"];
+Tip: Modify the function and return the random item from an array except for the first item. The output should be a single item such as: "V".
+ */
+
+// Answer:
+function getRomanNumber(array) {
+    // Write your code here
+    function getRandomInteger(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+    return array[getRandomInteger(1, array.length)];
+}
 
