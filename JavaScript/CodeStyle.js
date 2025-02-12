@@ -25,6 +25,67 @@ console.log("says");
 console.log("woof"); */
 console.log("meow");
 
+/*
+Question 2:
+In programming with JavaScript, consider the three different ways of commenting in the code.
+Which type of comments are best used for documentation purposes, and which are best for single-line or disabling code?
+Select all correct statements.
+*/
+
+// A
+/* This is a multi-line comment */ - // should be used for disabling code.
+// B
+// This is a single-line comment - should be used for documentation purposes.
+//C
+/** This is a documentation comment */ - // should be used for disabling code.
+// D
+// This is a single-line comment - should be used for single-line comments.
+// E
+/** This is a documentation comment */ - // should be used for documentation purposes.
+
+// Answer: A, D and E
+
+/*
+Question 3:
+Add and/or remove the unnecessary comments to print the following string: four.
+*/
+
+console.log("one");
+// console.log("One");
+/* console.log("two");
+console.log("two.");
+console.log("three");
+//console.log("four");
+console.log("Four!");*/
+console.log("4");
+
+// Answer:
+    /* console.log("one");
+    console.log("One");
+    console.log("two");
+    console.log("two.");
+    console.log("three"); */
+    console.log("four");
+/* console.log("Four!");
+console.log("4"); */
+
+/*
+Question 4:
+Comment unnecessary lines of code to make sure that the result of the output is as follows:
+
+A cat
+says
+meow
+ */
+
+// Answer:
+// console.log("A dog");
+console.log("A cat");
+console.log("says");
+/* console.log("quack-quack");
+console.log("woof"); */
+console.log("meow");
+
 /**
  * Topic 2: Naming Variables
  */

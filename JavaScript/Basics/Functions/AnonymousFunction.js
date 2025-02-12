@@ -238,3 +238,17 @@ function greet () {
 
 A function must be unnamed to be considered anonymous.
  */
+
+/*
+Question 10:
+Write a single line of JavaScript that assigns an anonymous function returning the number 10 to a variable named 'calculate'.
+ */
+
+// Answer:
+const calculate = function() {return 10;}
+/*
+Explanation:
+function() { return 10; } is an anonymous function (no name).
+It returns the number 10.
+It is assigned to the calculate variable so that you can call it later.
+ */

@@ -3,6 +3,21 @@
  */
 
 /*
+Given a code snippet in JavaScript, your task is to fill in the missing parts to complete the program.
+This program should be able to ask the user for their name, age, and country through prompts,
+and then print a greeting message that incorporates all these details.
+
+To help you understand how prompt() and parseInt() functions work, consider these examples.
+
+The prompt function in JavaScript is used to display a dialogue box that allows the user to enter input as a string.
+If you enter, for example, 5, the iStoreValueFromDialog variable will now store that value.
+*/
+let iStoreValueFromDialog = prompt("Which value do I need to store?"); // String '5'
+
+// The parseInt function in JavaScript is used to convert a string to an integer.
+let nowItIsNumber = parseInt('5'); // Number 5
+
+/*
 Part 1: change the dots by filling in the missing code
 
 Example:
