@@ -177,7 +177,7 @@ function sayHi() {
 }
 
 /*
-Question 4:
+Question 5:
 Define the double and triple functions in JavaScript to respectively double and triple the input numbers.
 Choose the correct code snippets.
 Select one or more options from the list
@@ -234,7 +234,7 @@ These are arrow functions, which are a modern and concise way to define function
  */
 
 /*
-Question 5:
+Question 6:
 Create the sum function that takes two numbers as parameters and returns their sum.
  */
 
@@ -244,7 +244,7 @@ function sum(a, b) {
 }
 
 /*
-Question 6:
+Question 7:
 Select all the function declarations.
  */
 
@@ -261,10 +261,10 @@ function sayHi() {
 }
 
 // Answer:
-// 2 and 3 are correct function declarations
+// 2 and 3 are correct function declarations, the first is an anonymous function
 
 /*
-Question 7:
+Question 8:
 Choose the functions that are defined incorrectly.
 Select one or more options from the list
 */

@@ -71,7 +71,7 @@ Value: '125'
 Reason: The + operator concatenates item1 and item2 as strings because both item1 and item2 are strings.
 Thus, '12' + '5' results in '125'.
  */
-totalNumber
+// totalNumber
 Data Type: Number
 Value: 17
 /*

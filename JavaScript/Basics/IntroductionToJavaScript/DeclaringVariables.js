@@ -29,3 +29,64 @@ Question 2: What is the correct variable name for representing a user's age in J
 Answer:
 */
 userAge
+
+/*
+Question 3:
+Consider
+
+/* sample variable declaration */
+let a = 'hello';
+Explain code
+
+// and
+
+/* sample const variable declaration */
+const b = 'world';
+
+/*
+As part of a multi-line program, how will the JavaScript runtime treat these statements? And if we try to reassign
+a value to b, what will happen?
+
+A: The let statement will define 'a' with 'hello', the const will define 'b' with 'world', and 'b' can be reassigned
+with no issues.
+B: The let and const keywords are not recognized in JavaScript and will cause an error.
+C: Both the let and const statements will define 'a' and 'b' respectively, and reassigning 'b' will lead to a SyntaxError.
+D: Both the let and const statements will be ignored due to the presence of comments,
+and reassigning to 'b' will have no effect.
+E: The let statement will define 'a' with 'hello', theconst will define 'b' with 'world', and a TypeError will be
+thrown if we try to reassign the value to 'b'.
+ */
+
+// Answer: E
+
+/*
+Question 4:
+Why doesn't the variable value change to the offline string? Find the error and fix it.
+
+// сhange the code below
+const status = "online";
+status = "offline";
+ */
+
+// Answer:
+// сhange the code below
+let status = "online";
+status = "offline";
+
+/*
+Question 5:
+Select the correct ways to create a mutable variable:
+ */
+
+let a = 4;
+const a = "4";
+val a = 4;
+const a = 4;
+const a = '4';
+let a = "4";
+let a = '4';
+
+// Answer:
+let a = 4;
+let a = "4";
+let a = '4';
