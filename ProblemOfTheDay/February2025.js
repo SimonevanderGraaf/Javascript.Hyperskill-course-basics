@@ -105,3 +105,68 @@ randomInt(10, 15) // 15
 console.log(randomInt(10, 15)); // Output: Random integer between 10 and 15
 console.log(randomInt(10, 15)); // Example: 13
 console.log(randomInt(10, 15)); // Example: 15
+
+/*
+February 19:
+
+Who's the owner?
+In the code below you have a function named switchTheValues that gets an array with two objects inside. Each object has the following structure:
+
+{
+  name: '...',
+  breed: '...',
+  owner: '...',
+}
+
+The person who created this object got the cat's name mixed up with the name of its owner. Your task is to fix this mistake.
+Switch the value of the key name with the value of the key owner and print it with the following sentence:
+... has a cat named ..., whose breed is ...
+
+Replace the dots with the corresponding variables.
+
+Hint:
+Sample Input 1:
+
+[{"name":"Paul","breed":"Siamese","owner":"Bella"},{"name":"Lucia","breed":"Norwegian Forest","owner":"Lilly"}]
+
+Sample Output 1:
+
+Paul has a cat named Bella, whose breed is Siamese
+Lucia has a cat named Lilly, whose breed is Norwegian Forest
+
+Write the code in Javascript, Following this structure:
+function switchTheValues(cats) {
+
+}
+ */
+
+// Answer:
+function switchTheValues(catsArray) {
+    catsArray.forEach(cat => {
+        // Swap the values of name and owner
+        let temp = cat.name;
+        cat.name = cat.owner;
+        cat.owner = temp;
+
+        // Print the correct sentence
+        console.log(`${cat.owner} has a cat named ${cat.name}, whose breed is ${cat.breed}`);
+    });
+}
+
+// Sample Input
+const cats = [
+    { name: "Paul", breed: "Siamese", owner: "Bella" },
+    { name: "Lucia", breed: "Norwegian Forest", owner: "Lilly" }
+];
+
+// Call the function
+switchTheValues(cats);
+
+/*
+Explanation of the Code:
+Iterate through each object in the array using .forEach()
+Swap the name and owner values using a temporary variable temp.
+Print the corrected sentence:
+The owner now correctly refers to the person.
+The name now correctly refers to the cat.
+ */

@@ -82,7 +82,7 @@ console.log(Boolean(0)); // Answer: false
 
 /*
 Question 8:
-Can th following values change into numbers in case of implicit numeric expression?
+Can the following values change into numbers in case of implicit numeric expression?
  */
 
 0 - false // Answer: yes, 0 - 0 = 0
